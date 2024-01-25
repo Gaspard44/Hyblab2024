@@ -1,0 +1,73 @@
+{
+  "type": "dialog",
+  "title": "option system",
+  "body": [
+    {
+      "type": "select",
+      "id": "option1",
+      "options": [
+        {
+          "id": "option1-1",
+          "text": "option1-1"
+        },
+        {
+          "id": "option1-2",
+          "text": "option1-2"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "option2",
+      "options": [
+        {
+          "id": "option2-1",
+          "text": "option2-1"
+        },
+        {
+          "id": "option2-2",
+          "text": "option2-2"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "option3",
+      "options": [
+        {
+          "id": "option3-1",
+          "text": "option3-1"
+        },
+        {
+          "id": "option3-2",
+          "text": "option3-2"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "option4",
+      "options": [
+        {
+          "id": "option4-1",
+          "text": "option4-1"
+        },
+        {
+          "id": "option4-2",
+          "text": "option4-2"
+        }
+      ]
+    }
+  ],
+  
+  "bubble": {
+    "option1-1": true,
+    "option1-2": false,
+    "option2-1": true,
+    "option2-2": false,
+    "option3-1": true,
+    "option3-2": false,
+    "option4-1": true,
+    "option4-2": false
+  }
+}
