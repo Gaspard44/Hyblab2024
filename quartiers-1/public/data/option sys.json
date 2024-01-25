@@ -4,70 +4,70 @@
   "body": [
     {
       "type": "select",
-      "id": "option1",
+      "id": "Education",
       "options": [
         {
-          "id": "option1-1",
-          "text": "option1-1"
+          "id": "Education-1",
+          "text": "Education-1"
         },
         {
-          "id": "option1-2",
-          "text": "option1-2"
+          "id": "Education-2",
+          "text": "Education-2"
         }
       ]
     },
     {
       "type": "select",
-      "id": "option2",
+      "id": "Sport",
       "options": [
         {
-          "id": "option2-1",
-          "text": "option2-1"
+          "id": "Sport-1",
+          "text": "Sport-1"
         },
         {
-          "id": "option2-2",
-          "text": "option2-2"
+          "id": "Sport-2",
+          "text": "Sport-2"
         }
       ]
     },
     {
       "type": "select",
-      "id": "option3",
+      "id": "Residence",
       "options": [
         {
-          "id": "option3-1",
-          "text": "option3-1"
+          "id": "Residence-1",
+          "text": "Residence-1"
         },
         {
-          "id": "option3-2",
-          "text": "option3-2"
+          "id": "Residence-2",
+          "text": "Residence-2"
         }
       ]
     },
     {
       "type": "select",
-      "id": "option4",
+      "id": "News",
       "options": [
         {
-          "id": "option4-1",
-          "text": "option4-1"
+          "id": "News-1",
+          "text": "News-1"
         },
         {
-          "id": "option4-2",
-          "text": "option4-2"
+          "id": "News-2",
+          "text": "News-2"
         }
       ]
     }
   ],
   
   "bubble": {
-    "option1-1": true,
-    "option1-2": false,
-    "option2-1": true,
-    "option2-2": false,
-    "option3-1": true,
-    "option3-2": false,
-    "option4-1": true,
-    "option4-2": false
+    "Education-1": true,
+    "Education-2": false,
+    "Sport-1": true,
+    "Sport-2": false,
+    "Residence-1": true,
+    "Residence-2": false,
+    "News-1": true,
+    "News-2": false
   }
 }
