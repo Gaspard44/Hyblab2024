@@ -1,4 +1,4 @@
-fetch('data/option.json')
+fetch('./data/option.json')
   .then(response => response.json())
   .then(data => {
     document.getElementById('educationButton').addEventListener('click', function() {
