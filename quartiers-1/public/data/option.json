@@ -1,35 +1,18 @@
 {
-  "Education": {
-    "show": "1",
-    "options": ["Education1", "Education2"],
-    "responses": {
-      "Education1": "TRUE",
-      "Education2": "FALSE"
-    }
-  },
-  "Sport": {
-    "show": "1",
-    "options": ["Sport1", "Sport2"],
-    "flag":"1",
-    "responses": {
-      "Sport1": "TRUE",
-      "Sport2": "FALSE"
-    }
-  },
-  "Residence": {
-    "show": "1",
-    "options": ["Residence1", "Residence2"],
-    "responses": {
-      "Residence1": "TRUE",
-      "Residence2": "FALSE"
-    }
-  },
-  "News": {
-    "show": "1",
-    "options": ["News1", "News2"],
-    "responses": {
-      "News1": "TRUE",
-      "News2": "FALSE"
-    }
-  }
+  "Education": [
+    "Education1",
+    "Education2"
+  ],
+  "Sport": [
+    "Sport1",
+    "Sport2"
+  ],
+  "Residence": [
+    "Residence1",
+    "Residence2"
+  ],
+  "News": [
+    "News1",
+    "News2"
+  ]
 }

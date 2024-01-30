@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.5.1/dialog-polyfill.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.5.1/dialog-polyfill.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renne</title>
+</head>
+
+<body>
+    <dialog id="RenneDialog">
+        <form method="dialog">
+            <p>
+                <label>Part of Renne:
+                    <select name="partOfRenne">
+                        <option value="default">Choose...</option>
+                        <option>Education</option>
+                        <option>Sport</option>
+                        <option>Residence</option>
+                        <option>News</option>
+                    </select>
+                </label>
+            </p>
+            <div>
+                <button value="cancel">Cancel</button>
+                <button id="confirmBtn" value="default">Confirm</button>
+            </div>
+        </form>
+    </dialog>
+    <p>
+        <button type="button" id="RenneDetails">Update details</button>
+    </p>
+    <output></output>
+    <script src="js/option_test.js"></script>
+</body>
+
+</html>
